@@ -143,7 +143,7 @@ Copy-Item .env.example .env
 AGNES_API_KEY=你的真实密钥
 AGNES_BASE_URL=https://apihub.agnes-ai.com/v1
 AGNES_MODEL=agnes-2.0-flash
-WORKSPACE_ROOT=D:\loop-engineer-workspace\repos
+WORKSPACE_ROOT=E:\loop-engineer-workspace\repos
 ```
 
 `WORKSPACE_ROOT` 必须由使用者设置。它用于隔离 Clone、依赖、构建产物和运行数据，不应指向本仓库、用户目录根层或系统目录。
