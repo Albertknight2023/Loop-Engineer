@@ -1,0 +1,30 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+!.env.example
+.envrc
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials/
+
+# Local editor and Agnes Get Weather learning files: keep them locally.
+.idea/
+script.py
+script copy.py
+get_weather_agent/
+note1.ipynb
+githubnote.ipynb
+
+# Per-user runtime state, raw GitHub pages, reports, and execution logs.
+data/
+logs/
+reports/
+seen.txt
+history.md
+*.log
